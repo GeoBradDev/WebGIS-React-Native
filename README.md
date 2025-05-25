@@ -1,6 +1,3 @@
-Here is the refactored README written in **Markdown** format for your **WebGIS React Native** project:
-
-````markdown
 # WebGIS-React-Native 📱🗺️
 
 A universal mobile-first template for modern **WebGIS** and **interactive mapping** apps. Built with **React Native**, **Expo**, and **OpenStreetMap**, this project integrates seamlessly with the [WebGIS-Django backend](https://github.com/GeoBradDev/WebGIS-Django) to power full-stack spatial applications on Android and iOS.
