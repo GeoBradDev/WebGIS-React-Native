@@ -1,6 +1,8 @@
 import 'dotenv/config';
 
-console.log('API Key loaded:', process.env.GOOGLE_MAPS_API_KEY ? 'YES' : 'NO');
+if (process.env.NODE_ENV === 'development') {
+    console.log('API Key loaded:', process.env.GOOGLE_MAPS_API_KEY ? 'YES' : 'NO');
+}
 
 export default {
     expo: {
